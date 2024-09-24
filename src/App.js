@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>Weather App</h1>
-        <Weather defaultCity= "New York"/>
+        <Weather defaultCity="New York" />
         <footer>
           This project was coded by{" "}
           <a href="/" target="_blank">
@@ -17,6 +17,7 @@ function App() {
           <a
             href="https://github.com/KenJohn28/react-weather-app"
             target="_blank"
+            rel="noreferrer noopener"
           >
             open-sourced on Github
           </a>
