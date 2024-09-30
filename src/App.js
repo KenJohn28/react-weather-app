@@ -10,7 +10,7 @@ function App() {
         <Weather defaultCity="New York" />
         <footer>
           This project was coded by{" "}
-          <a href="/" target="_blank">
+          <a href="/" target="_blank" rel="noreferrer noopener">
             Kenya Johnson
           </a>{" "}
           and is{" "}
@@ -20,6 +20,14 @@ function App() {
             rel="noreferrer noopener"
           >
             open-sourced on Github
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://mojos-weather-app.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
           </a>
         </footer>
       </div>
